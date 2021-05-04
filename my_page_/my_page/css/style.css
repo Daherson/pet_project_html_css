@@ -1,0 +1,295 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    width: 1366;
+    margin: 0 auto;
+}
+
+.header_1{
+    width: 100%;
+    height: 402px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    /*background-position: center, top;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/background_forest4.JPG) 
+
+}
+
+.photo_main {
+    position: absolute;
+    width: 340px;
+    height: 541.96px;
+    top: 7.78px;
+    display: flex;
+    align-self: center;
+    
+  
+   
+    
+}
+
+@font-face {
+    font-family: Cinzel-VariableFont_wght;
+    src: url(../fonts/Averia_Serif_Libre_Cinzel/Cinzel/Cinzel-VariableFont_wght.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+.main_text_dk {
+    width: 257px;
+    height: 124px;
+    top: 199px;
+    display: flex;
+    position: absolute;
+    left: 360px;
+
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+
+    color: #FDFDFD;
+
+}
+.main_text_wb {
+    width: 272px;
+    height: 124px;
+    top: 199px;
+    right: 360px;
+    display: flex;
+    position: absolute;
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+    ;
+
+    color: #FDFDFD;
+}
+
+
+
+
+.content {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-position: center, top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/background_forest_blurry.jpg) 
+
+}
+
+.content_contacts {
+    width: 100%;
+    height: 1276px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-position: center, top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/background_forest_blurry.jpg) 
+
+}
+.content_projects {
+    width: 100%;
+    height: 1276px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-position: center, top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/background_forest_blurry.jpg) 
+}
+.figure {
+    width: 766.28px;
+    height: 631.05px;
+    top: 0;
+    position: absolute;
+    display: block;
+    justify-content: center;
+    background-image: url(img/figure.svg)
+}
+
+.main_link {
+    position: absolute;
+    width: 82px;
+    height: 40px;
+    left: 44%;
+    top: 45%;
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.contacts_link {
+    position: absolute;
+    width: 161px;
+    height: 54px;
+    left: 67%;
+    top: 66%;
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+.projects_link {
+    position: absolute;
+    width: 169px;
+    height: 54px;
+    left: 10%;
+    top: 66%;
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+.content_proj {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+    top: 600px;
+    background: url(img/footer.png);
+    
+}
+.proj_objects {
+    position: relative;
+    width: 107px;
+    height: 105px;
+    top: 20px;
+    display:flex;
+    justify-content: center;
+
+
+}
+
+.text_proj {
+    position: relative;
+    width: 300px;
+    height: 25px;
+    display: flex;
+    top: 55px;
+    
+    
+    
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+
+
+}
+
+.content_sm {
+    position:absolute;
+    width: 100%;
+    height: 300px;
+    top: 600px;
+    background: url(img/footer.png);
+    
+
+}
+.sm_objects {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img_ico {
+    width: 107px;
+    height: 105px;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 130px;
+    top: 1220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    background-position: center, top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/footer.png) 
+
+}
+.footer_contacts{
+    width: 100%;
+    height: 130px;
+    top: 1547px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    background-position: center, top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/footer.png) 
+
+}
+.copy_ {
+
+    position: absolute;
+    width: 420px;
+    height: 25px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    font-family: Cinzel-VariableFont_wght;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+
+
+}
